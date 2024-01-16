@@ -1,0 +1,660 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+:root{
+    --praimary-color:#5A5A5D;
+    --second-color:#FF5400;
+    
+}
+.nav-bar, .logo{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: 3.25rem 0;
+}
+.header-logo{
+ display: flex;
+ align-items: center;
+}
+.logo h2{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-left: 1.4rem;
+}
+.logo h2 span{
+    color: var(--second-color);
+}
+.nav-menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 2.75rem;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+}
+.menu-button i{
+    display: none;
+}
+.banner-content{
+    background-image: url('../img/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(19, 19, 24, 0.0) 80%),url('../img/Group\ 13\ \(1\)\ \(1\).png');
+    height: 70vh;
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.banner-dis{
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+.banner-dis h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-dis p{
+    color:#fff ;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 1.5rem 0 3rem 0;
+
+}
+.banner-form{
+    background-color: #ffffff5d;
+    padding:1rem ; 
+    border-radius: .5rem;
+    display: flex;
+    gap: 1rem;
+    width: 81%;
+    margin: 0 auto;
+    
+}
+.Where input, .when input, .type input{
+    border: none;
+}
+.Where, .when, .type {
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    padding: 1rem  1rem 1rem 1rem;
+    border-style: none;
+    border-radius: .5rem;
+
+}
+.find-new i{
+    margin-right:.5rem ;
+    
+}
+.find-new a button{
+    background-color: var(--second-color);
+    color: #fff;
+    padding:1.1rem 3.2rem ;
+    border-style: none;
+    border-radius: .5rem;
+}
+.service-content{
+    margin: 6.25rem 0;
+    display: flex;
+    gap:3.13rem;
+}
+.secvice-left h3, .choose-info h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.secvice-left ul{
+    margin-left: 1rem;
+}
+.secvice-left ul li p{
+    margin-bottom: 1rem;
+}
+.secvice-left p, .choose-info p{
+color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+line-height: 1.625rem;
+}
+.service-des{
+    margin: 1.5rem 0;
+}
+.service-btn button{
+    border-style: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    /* margin:2rem 0 6.25rem 0 ; */
+}
+.service-btn {
+    background-color: var(--second-color);
+    padding:.87rem 2.29rem ;
+    border-radius: .5rem;
+    margin:2rem 0 6.25rem 0 ;
+}
+.secvice-rignt img{
+    width: auto;
+
+}
+.Destination-content{
+    text-align: center;
+    margin: 0 16.44rem;
+}
+.Destination-content h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.Destination-content p, .footer-dis p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin: 1.5rem 0 3rem 0;
+}
+.d-1, .d-2, .d-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.d-1 img,.d-3 img{
+    width: 34.8125rem;
+    height: 18.75rem;
+    
+}
+.d-2 img{
+    width: 100%;
+}
+.d-1 div p, .d-3 div p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: relative;
+    bottom: 50%;
+    left: 40%;
+    
+}
+
+.d-2 img {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+.d-2 div p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: relative;
+    bottom: 50%;
+    left: 30%;
+} 
+.choose-info{
+ text-align: center;
+ margin: 6.25rem 0
+}
+
+.choose-info p{
+    margin:1.5rem 0 ;
+}
+.choose-card h4{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 2rem 0 1rem 0;
+}
+.choose-card p{
+    color: var(--praimary-color);
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+.card-hotel{
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem 3rem 2rem 2rem;
+    width: 50%;
+}
+.card-Service{
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 2rem 3rem 2rem 2rem;
+    width: 50%;
+}
+.card-Guarante{
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 2rem 3rem 2rem 2rem;
+    max-width: 570px;
+    margin: 0 auto;
+}
+.card-row-a{
+    display: flex;
+    justify-content: space-between;
+    gap:1.5rem ;
+    margin-bottom: 1.5rem;
+}
+.choose{
+    margin: 6.25rem 0 6.25rem 0 ;
+}
+.deals-head{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.deals-head h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.deals-head p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 1.5rem 0 3rem 0;
+}
+.deals-card-1, .deals-card-3{
+    background-image: url('../img/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    width:100% ;
+    height: 50vh;
+    margin-top:1.5rem;
+}
+.deals-card-2{
+    background-image: url('../img/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    width:100% ;
+    height: 50vh;
+    margin-top:1.5rem;  
+}
+.deals-card-1 .cards-info, .deals-card-3 .cards-info{
+    background-color: #ffffffe2;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 3.13rem;
+    position: relative;
+    top: 11%;
+    left: 45%;
+}
+.deals-card-2 .cards-info{
+    background-color: #ffffffc9;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 3.13rem;
+    position: relative;
+    top: 11%;
+    left: 5%;
+}
+
+.cards-info ul{
+    display: flex;
+    justify-content: center;
+    gap:1.5rem ;
+}
+.cards-info ul li {
+    list-style: none;
+    color: #5A5A5D;
+    font-size: 1rem;
+}
+.cards-info ul li i{
+    color: #FF5400;
+    margin-right: .5rem;
+    font-size: 1.25rem;
+}
+.cards-info h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 1.5rem;
+}
+.cards-info p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 1rem 0;
+}
+.cards-info h4{
+    color: var(--second-color);
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.praimary-btn button{
+    color: #fff;
+    border-style: none;
+    background-color: transparent;
+    margin-top: 2.5rem;
+}
+.praimary-btn{
+    text-decoration: none;
+    background-color: var(--second-color);
+    padding: .87rem 1.56rem;
+    border-radius: .5rem;
+}
+.deals-btn button{
+    border-style: none;
+    color: #fff;
+    background-color: var(--second-color);
+    padding: .87rem 1.388rem;
+    border-radius: .5rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.deals-btn{
+    display: flex;
+    justify-content: center;
+    margin-top:3rem ;
+}
+.view-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 6.25rem 0;
+    gap:1.75rem ;
+}
+
+.view-left h2{
+    margin-right: 5rem;
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3.75rem;
+}
+.view-left > p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 1.5rem 0;
+}
+.view-left ul li{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+    margin: 0 1rem;
+}
+.view-left ul li p{
+    margin-bottom: 1rem;
+}
+.view-btn{
+    margin-top:2rem;
+}
+.view-right{
+    width: 100%;
+    height:50vh;
+    background-image:url('../img/Group\ 40089.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-right h4{
+    width: 60%;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    text-align: center;
+}
+.view-right{
+    position: relative;
+    
+}
+.play-btn img{
+    width: 27%;
+  position: absolute;
+  right: 23%;
+  top: 642%;
+}
+.news-content{
+    display: flex;
+    gap: 1.5rem;
+    margin: 6.25rem 0;
+
+}
+.letter-left{
+    border: 1px solid var(--second-color);
+    border-radius: 1rem;
+    width: 29.625rem;
+}
+.letter-left > div{
+    margin: 2.5rem;
+}
+.letter-left h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.letter-left p{
+    color: var(--praimary-color);
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 1rem 2.69rem 1.5rem 0;
+}
+.line{
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin-bottom: 1.5rem;
+}
+.letter-left input{
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 1rem 11.69rem 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+
+}
+.news-btn{
+    width: 105%;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+.news-btn button{
+    background-color: var(--second-color);
+    border-style: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.letter-right{
+    width: 100%;
+    position: relative;
+}
+.letter-right img{
+    width: 100%;
+    height: 100%;
+}
+.discount{
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    padding: 1.7rem 0rem;
+    border-radius: 1rem;
+    width: 20.25rem;
+    position:absolute ;
+    bottom: 12%;
+    left: 48%;
+    transform: rotate(-20deg);
+}
+.discount h6{
+font-size: 1.5rem;
+}
+.discount h5{
+    font-size: 2rem ;
+    font-weight: 800;
+}
+
+footer{
+    background: rgba(19, 19, 24, 0.05); 
+    padding:6.88rem 0 ;
+
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+   }
+   .footer-logo h2{
+       color: #131318;
+       font-size: 2.25rem;
+       font-weight: 800;
+       margin-left: 1.4rem;
+   }
+   .footer-logo h2 span{
+       color: var(--second-color);
+   }
+   .footer-dis p{
+    text-align: center;
+    margin: 1rem 4rem 2rem 4rem;
+   }
+   .social-icon{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   }
+   .social-icon{
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10) ;
+    padding-bottom: 3.12rem;
+   }
+   .footer-content h3{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 3.12rem 0 0rem 0;
+   }
+   @media screen and (max-width:600px) {
+    .container{
+        width: 534px;
+        margin: 0 2rem;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .menu-button i{
+        display: block;
+        margin-left: 10rem;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner-content{
+        height: 80vh;
+    }
+    .banner-form{
+        display: table;
+        gap: 2rem;
+    }
+    .Where , .when , .type {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .find-new a button{
+        padding:1.1rem 39.9% ;
+    }
+    .service-content, .d-1, .d-2, .d-3, .card-row-a, .view-content, .news-content{
+    flex-direction: column;
+    }
+    .secvice-left{
+        max-width: 62vh;
+    }
+    .d-2 img{
+        width: 63vh;
+    }
+
+    .Destination-img img{
+        width: 100%;
+        margin: 0 ;
+    }
+   .Destination-content{
+    max-width: 534px;
+    margin: 0 auto;
+   }
+    
+    .Destination-img p{
+        display: none;
+    }
+    .d-2, .d-3{
+        margin-top: 1rem;
+    }
+    .d-2 div p{
+        display: none;
+    }
+    .d-2 img{
+        height: 18.75rem;
+        width: 100%;
+    }
+    
+.card-hotel, .card-Service, .letter-right img {
+    width: 534px;
+}
+.cards-Guarante, .view-right img{
+    width:534px ;
+}
+.deals-card-1 .cards-info, .deals-card-3 .cards-info, .deals-card-2 .cards-info{
+    width:490px;
+    top: 40%;
+    left: 4%;
+}
+.deals-card-1, .deals-card-2,.deals-card-3{
+    height:80vh ;
+}
+.view-right{
+    width: 100%;
+    height: 60vh;
+    background-image:url('../img/Group\ 40089.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+.play-btn img{
+    width: 80%;
+    right: 10%;
+    top: 1102%;
+}
+.letter-left{
+    width: 534px;
+}
+.letter-left img{
+    width: 534px;
+}
+.discount{
+    bottom: 15%;
+    left: 38%;
+}
+.letter-left input{
+    padding: 1rem 14rem 1rem 1.25rem;
+}
+.news-btn{
+    width: 100%;
+}
