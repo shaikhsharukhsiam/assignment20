@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/b50f6abfd1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles/style.css" />
+    
+    <title>Travel Time</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-logo">
+          <img src="Images/objects/logo.png" alt="Travel Time Logo" />
+          <h2 class="company-name">
+            <span class="orange-tx">Travel</span> Time
+          </h2>
+        </div>
+        <ul>
+          <li><a class="orange-tx" href="#">Home</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Testimonial</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <input type="checkbox" id="checkbtn" />
+        <label for="checkbtn" class="hambtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner-section">
+        <h1 class="banner-title">Explore Your Travel</h1>
+        <p class="banner-description center-wht-paragraph">
+          We continue to see Americans show a great deal of interest in
+          traveling to national parks, whether that&apos;s to see the sights or
+          to check off another park from their bucket list.
+        </p>
+        <div class="form-container">
+          <form class="banner-form" action="">
+            <input type="text" name="place" id="place" placeholder="Where go" />
+            <select name="time" id="time">
+              <option value="">When</option>
+              <option value="january">January</option>
+              <option value="february">February</option>
+              <option value="march">March</option>
+              <option value="april">April</option>
+              <option value="may">May</option>
+              <option value="june">June</option>
+              <option value="july">July</option>
+              <option value="august">August</option>
+              <option value="september">September</option>
+              <option value="october">October</option>
+              <option value="November">November</option>
+              <option value="december">December</option>
+            </select>
+            <select name="type" id="type">
+              <option value="">Type</option>
+              <option value="forest">Forest</option>
+              <option value="historical">Historical</option>
+              <option value="sea">Sea</option>
+              <option value="adventure">Adventure</option>
+            </select>
+            <button class="search-btn" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i> Search
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="popular-tour">
+        <div class="popular-data">
+          <div class="popular-text">
+            <h2 class="h2-side-title">Our Popular Tours</h2>
+            <p class="black-paragraph">
+              Rainbow Mountain, also known as Vinicunca, Winikunka, Montaña de
+              Siete Colores, or Montaña de Colores, has seen a massive growth in
+              tourist visits since 2015.
+            </p>
+            <ul>
+              <li class="black-paragraph">
+                It was even listed in National Geographic&apos;s “Top 100 Places
+                To Visit Before You Die”.
+              </li>
+              <li class="black-paragraph">
+                An estimated 1,500 people a day made the trek in 2019,
+                that&apos;s one third of the daily visitors in Machu Picchu.
+              </li>
+              <li class="black-paragraph">
+                You will also find many images online that have filters applied
+                to it, or that are otherwise manipulated.
+              </li>
+            </ul>
+            <p class="black-paragraph">
+              The giant Andes mountains along the west side of the South
+              American continent form the longest continental mountain range in
+              the world with heights up to 22,800 feet (7,000 meter) above sea
+              level.
+            </p>
+          </div>
+          <div class="btn-div">
+            <button class="primary-btn" type="button">Read More</button>
+          </div>
+        </div>
+        <div class="popular-img">
+          <img src="Images/objects/lava-mountain.png" alt="Mountain" />
+        </div>
+      </section>
+
+      <section class="destination">
+        <div class="destination-text">
+          <h2 class="h2-middle-title">Choose Your Destination</h2>
+          <p class="center-blk-paragraph destination-paragraph">
+            Travel may be local, regional, national (domestic) or international.
+            In some countries, non-local internal travel may require an internal
+            passport.
+          </p>
+        </div>
+        <div class="destination-img">
+          <div class="card c1">
+            <h3 class="place-name">Maldives</h3>
+          </div>
+          <div class="card c2">
+            <h3 class="place-name">Indonesia</h3>
+          </div>
+          <div class="card c3">
+            <h3 class="place-name">Srilanka</h3>
+          </div>
+          <div class="card c4">
+            <h3 class="place-name">North America</h3>
+          </div>
+          <div class="card c5">
+            <h3 class="place-name">Kashmir</h3>
+          </div>
+          <div class="card c6">
+            <h3 class="place-name">Bangladesh</h3>
+          </div>
+          <div class="card c7">
+            <h3 class="place-name">Bandarban</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="why">
+        <div class="why-text">
+          <h2 class="h2-middle-title">Why Choose Us</h2>
+          <p class="center-blk-paragraph destination-paragraph">
+            Flight Expert is one of the most premium online flight booking
+            agencies in Bangladesh. Since its inception on March 1, 2017, the
+            online travel agency (OTA) has gained a large following because of
+            its outstanding service.
+          </p>
+        </div>
+        <div class="why-cards">
+          <div class="why-card1">
+            <img src="Images/icons/hotel 1.svg" alt="Hotel" />
+            <h3 class="h3-title">Handpicked Hotels</h3>
+            <p class="black-paragraph">
+              Lifestyle luxury resorts are branded hotels that appeal to a guest
+              with lifestyle or personal image in specific locations. They are
+              typically full-service and classified as luxury.
+            </p>
+          </div>
+          <div class="why-card2">
+            <img src="Images/icons/map 1.svg" alt="Map" />
+            <h3 class="h3-title">World Class Service</h3>
+            <p class="black-paragraph">
+              Upscale full-service hotels often provide a wide array of guest
+              services and on-site facilities. Commonly found amenities may
+              include: on-site food and beverage.
+            </p>
+          </div>
+          <div class="why-card3">
+            <img src="Images/icons/price-tag 1.svg" alt="Price-tag" />
+            <h3 class="h3-title">Best Price Gaurantee</h3>
+            <p class="black-paragraph">
+              Small to medium-sized hotel establishments that offer a very
+              limited number of on-site amenities and often only offer basic
+              accommodations with little to no services.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="deals">
+        <div class="deals-text">
+          <h2 class="h2-middle-title">Deal and Discount</h2>
+          <p class="center-blk-paragraph destination-paragraph">
+            Travel by water often provided more comfort and speed than
+            land-travel, at least until the advent of a network of railways in
+            the 19th century.
+          </p>
+        </div>
+        <div class="deals-card-container">
+          <div class="deal-card1">
+            <div class="subcard">
+              <div class="sub-icons">
+                <div class="sub-icon-data">
+                  <i class="fa-solid fa-clock"></i>
+                  <p class="black-paragraph">7 Day / 6 Night</p>
+                </div>
+                <div class="sub-icon-data">
+                  <i class="fa-solid fa-user-group"></i>
+                  <p class="black-paragraph">Max : 10</p>
+                </div>
+                <div class="sub-icon-data">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="black-paragraph">Sajek union</p>
+                </div>
+              </div>
+              <h3 class="h3-title">Tour To Sajek</h3>
+              <p class="black-paragraph">
+                Sajek Valley is one of the most popular tourist spots in
+                Bangladesh situated among the hills of the Kasalong range of
+                mountains in Sajek union.
+              </p>
+              <p class="price orange-tx">Price: $100-$150</p>
+              <button class="primary-btn" type="button">Book Now</button>
+            </div>
+          </div>
+          <div class="deal-card2">
+            <div class="subcard">
+              <div class="sub-icons">
+                <div class="sub-icon-data">
+                  <i class="fa-solid fa-clock"></i>
+                  <p class="black-paragraph">4 Day / 5 Night</p>
+                </div>
+                <div class="sub-icon-data">
+                  <i class="fa-solid fa-user-group"></i>
+                  <p class="black-paragraph">Max : 7</p>
+                </div>
+                <div class="sub-icon-data">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="black-paragraph">Chittagong</p>
+                </div>
+              </div>
+              <h3 class="h3-title">Tour To Rangamati</h3>
+              <p class="black-paragraph">
+                Rangamati is the administrative headquarter and town of
+                Rangamati Hill District in the Chittagong Hill Tracts of
+                Bangladesh.
+              </p>
+              <p class="price orange-tx">Price: $130-$150</p>
+              <button class="primary-btn" type="button">Book Now</button>
+            </div>
+          </div>
+          <div class="deal-card3">
+            <div class="subcard">
+              <div class="sub-icons">
+                <div class="sub-icon-data">
+                  <i class="fa-solid fa-clock"></i>
+                  <p class="black-paragraph">3 Day / 2 Night</p>
+                </div>
+                <div class="sub-icon-data">
+                  <i class="fa-solid fa-user-group"></i>
+                  <p class="black-paragraph">Max : 8</p>
+                </div>
+                <div class="sub-icon-data">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="black-paragraph">Bangladesh</p>
+                </div>
+              </div>
+              <h3 class="h3-title">Tour To Cox's Bazar</h3>
+              <p class="black-paragraph">
+                Cox's Bazar is a city, fishing port, tourism centre, and
+                district headquarters in Southeastern Bangladesh.
+              </p>
+              <p class="price orange-tx">Price: $200-$250</p>
+              <button class="primary-btn" type="button">Book Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="primary-btn" type="button">See All Packages</button>
+      </section>
+
+      <section class="perfect-place">
+        <div class="perfect-place-data">
+          <div class="perfect-text">
+            <h2 class="h2-side-title">A Simple Perfect Place To Get Lost</h2>
+            <p class="black-paragraph">
+              This is an opportunity to ski with a Mountain Host guide with
+              extensive knowledge of Vail Mountain.
+            </p>
+            <ul class="perfect-place-ul">
+              <li class="black-paragraph">
+                Optimize your ski experience while you learn of the Legendary
+                History of Vail.
+              </li>
+              <li class="black-paragraph">
+                We will pay homage to the pioneers who had a unique vision for
+                Vail.
+              </li>
+            </ul>
+            <p class="black-paragraph">
+              We know that your parents told you not to talk to strangers but,
+              since this is RED Mountain, you are a stranger here but once.
+            </p>
+          </div>
+          <div class="btn-div">
+            <button class="primary-btn" type="button">See More</button>
+          </div>
+        </div>
+        <div class="video-div">
+          <video src="Images/mountain-video.mp4" controls></video>
+          <h3 class="perfect-place-name place-name" aria-placeholder="0">
+            Watch Our Mountain in Bangladesh
+          </h3>
+        </div>
+      </section>
+
+      <section class="save-70">
+        <div class="newsletter">
+          <h3 class="h3-title">Newsletter</h3>
+          <p class="black-paragraph">
+            Get your daily dose of travel news & tips. Sign up today!
+          </p>
+          <hr />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <button class="primary-btn" type="button">Subscribe</button>
+        </div>
+        <div class="save-img">
+          <img src="Images/objects/save-img.png" alt="Mountain" />
+          <div class="save-btn-div">
+            <p>TravelTime.com</p>
+            <h3>Save up to 70%</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="nav-logo">
+          <img src="Images/objects/logo.png" alt="Travel Time Logo" />
+          <h2 class="company-name">
+            <span class="orange-tx">Travel</span> Time
+          </h2>
+        </div>
+        <p class="footer-p">
+          Travel Time a trusted company somewhere you may find in the world.
+          Enjoy your life by seeing the beauty of this earth with us.
+        </p>
+        <div class="social-links">
+          <a href="https://twitter.com/?lang=en" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://github.com/" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
+        <p class="right-tx">2024, All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
